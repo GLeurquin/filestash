@@ -2,11 +2,12 @@ package plugin
 
 import (
 	. "github.com/mickael-kerjean/filestash/server/common"
+	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_application_office"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_authenticate_htpasswd"
-	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_authenticate_ldap"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_authenticate_local"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_authenticate_passthrough"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_authenticate_wordpress"
+	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_authenticate_proxy"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_backend_artifactory"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_backend_backblaze"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_backend_dav"
